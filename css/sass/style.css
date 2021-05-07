@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#262181), color-stop(0%, #0f1e3f), color-stop(0%, #191919), color-stop(41%, #191919), color-stop(41%, #fd6500), color-stop(100%, #fd6500), color-stop(100%, #5479c9), color-stop(100%, #5479c9), to(#fd6500));
+  background: linear-gradient(90deg, #262181 0%, #0f1e3f 0%, #191919 0%, #191919 41%, #fd6500 41%, #fd6500 100%, #5479c9 100%, #5479c9 100%, #fd6500 100%);
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+}
+
+header .logo {
+  width: 15rem;
+  max-width: 100%;
+  float: left;
+}
+
+header .nav-pc ul {
+  list-style: none;
+  float: right;
+}
+
+header .nav-pc ul li {
+  display: inline-block;
+  padding-top: 1.5rem;
+}
+
+header .nav-pc ul li a {
+  color: #fff;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+header .nav-pc ul li a:hover {
+  text-decoration: none;
+}
+
+header .nav-pc ul li .search-svg {
+  width: 1rem;
+  margin-left: 1rem;
+}
+
+header .nav-mobile {
+  float: right;
+  margin-top: 0.8rem;
+}
+
+header .nav-mobile .sidenav {
+  height: 100%;
+  width: 0;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FD6500;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+header .nav-mobile .sidenav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  color: #f1f1f1;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .nav-mobile .sidenav a:hover {
+  color: black;
+  font-size: 25px;
+}
+
+header .nav-mobile .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  header .nav-mobile .sidenav {
+    padding-top: 15px;
+  }
+  header .nav-mobile .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.home-section-1 {
+  padding-top: 5rem;
+}
+
+.home-section-1 h1:nth-child(2) {
+  margin-top: -2rem;
+}
+
+.home-section-1 a {
+  color: #FFF;
+  background: #FD6500;
+  padding: 1rem;
+}
+
+.home-section-1 .more-info {
+  color: #FD6500;
+  padding-left: 2.5rem;
+  background: none !important;
+}
+
+.home-section-1 .icon i {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.home-section-1 .col-lg-8 img {
+  margin-top: -0.5rem;
+}
+
+.home-section-1 .col-lg-8 i {
+  margin-top: 4rem;
+  margin-right: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
